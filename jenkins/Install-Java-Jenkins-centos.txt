@@ -16,9 +16,7 @@ Install Jenkins
 
 Install Maven  ( on Jenkins machine )
 
-    sudo yum install wget -y
-	cd /tmp ; wget https://www-eu.apache.org/dist/maven/maven-3/3.6.1/binaries/apache-maven-3.6.1-bin.tar.gz
-	cd /tmp ; tar xzvf apache-maven-3.6.1-bin.tar.gz -C /opt
+    sudo yum install maven -y
 
 Set JAVA_HOME & MAVEN_HOME as environment variables on Jenkins machine
 
